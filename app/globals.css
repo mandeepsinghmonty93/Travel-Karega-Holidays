@@ -1,0 +1,15 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply font-body text-ink bg-white antialiased; }
+  h1,h2,h3,h4 { @apply font-heading font-bold text-navy; }
+  :focus-visible { outline: 3px solid #F2B323; outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+}
+@layer components {
+  .tagline { @apply font-heading font-light uppercase; letter-spacing: 0.125rem; }
+  .script { @apply font-script; }
+  .container-x { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+  .section { @apply py-16 md:py-24; }
+}
+.swiper { --swiper-theme-color: #F2B323; --swiper-navigation-color: #fff; }

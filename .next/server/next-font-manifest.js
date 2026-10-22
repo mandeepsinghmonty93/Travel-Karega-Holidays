@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/mandeepsingh/Documents/Travel-Karega-Holidays-Updated/app/layout\":[\"static/media/e4af272ccee01ff0-s.p.woff2\",\"static/media/d0b2b33e6c140c5c-s.p.woff2\",\"static/media/904be59b21bd51cb-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
